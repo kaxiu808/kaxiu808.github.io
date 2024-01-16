@@ -9,5 +9,5 @@
 - 记录课程学习笔记
 - 记录项目研发历程
 
-[Gitlab](https://gitlab.com/docsifyjs/docsify/)
+[Github](https://github.com/docsifyjs/docsify/)
 [开始学习吧](#docsify)
