@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 <body>
   <div id="app"></div>
@@ -14,6 +15,8 @@
     window.$docsify = {
       name: 'kaxiu的博客',
       repo: '',
+      alias: {'/.*/_sidebar.md': '/_sidebar.md'},
+      // 配置侧边栏后自动激活链接
       loadSidebar: true, // 增加，自动加载侧边栏
       coverpage: true, // 开启封面
       loadNavbar: true, // 增加，自动加载导航栏
@@ -38,5 +41,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!--搜索插件-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
