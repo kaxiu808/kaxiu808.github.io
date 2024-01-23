@@ -12,5 +12,6 @@
    - [2. js函数基础](/js/base/2.%20js函数基础.md)
    - [3. js作于域](/js/base/3.%20js作于域.md)
  
-
+* [kali的知识](kali/)
+    - [1. kali的常用命令](/kali/base/1.%20kali的常用命令.md)
 
