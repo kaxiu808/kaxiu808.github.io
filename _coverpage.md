@@ -1,6 +1,3 @@
-！[logo](_media/icon.png)
-
-
 
 # kaxiu的个人博客
 
