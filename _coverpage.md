@@ -10,4 +10,4 @@
 - 记录项目研发历程
 
 [Github](https://github.com/docsifyjs/docsify/)
-[开始学习吧](#docsify)
+
