@@ -11,4 +11,8 @@
  
 * [了解kali的基本命令](kali/)
     - [1. kali的常用命令](/kali/base/1.%20kali的常用命令.md)
-
+* [与shell命令脚本的偶遇](shell/)
+* 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk2MjY4NzYxNF19
+-->
