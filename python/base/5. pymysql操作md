@@ -1,6 +1,6 @@
 ### 分组查询：
 
- -简单的分组查询
+- 简单的分组查询
 
   - 注意：使用group by的查询字段必须是分组字段，否则会出错，想要获取其他字段信息,可以借助于聚合函数
 
@@ -8,7 +8,7 @@
   select job_title from emp group by job_title
 ```
 
--分组聚合
+- 分组聚合
 
 ```sql
   #查看每一个岗位的人数
@@ -23,7 +23,7 @@
   
   #查看男女员工的最大,最小年级和整体年龄
   select gender,max(age),min(age),sum(age) from emp group by gender
- ```
+```
 
 - having子句
 
@@ -413,6 +413,4 @@ table.to_excel('movie_list.xlsx',index=False)
 print('存储成功！')
 
 ```
-
-
 
