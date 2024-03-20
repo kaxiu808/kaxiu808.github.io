@@ -3,6 +3,8 @@
 * [认识python语言](python/)
    - [1. python的基础知识](/python/base/1.%20python的基础知识.md)
    - [2.requests高级操作](/python/base/2.%20requests高级.md)
+   - [2.requests高级操作](/python/base/2.%20requests高级.md)
+   -[2.requests高级操作](/python/base/2.%20requests高级.md)
 
 
 * [与javastript的邂逅之缘](js/)
@@ -16,5 +18,6 @@
 	 - [1.shell的基础用法](/shell/base/1.%20shell的基础用法.md)
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDcxOTY3NCwxMzA3MTI2NTYxXX0=
+eyJoaXN0b3J5IjpbMTI3OTMxNTk4NCwyMTI0NzE5Njc0LDEzMD
+cxMjY1NjFdfQ==
 -->
