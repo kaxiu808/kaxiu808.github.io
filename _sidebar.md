@@ -2,7 +2,7 @@
 
 * [认识python语言](python/)
    - [1. python的基础知识](/python/base/1.%20python的基础知识.md)
-   - [2. requests高级操作](/python/base/2.%20requests高级.md)
+   - [2. requests高级操作](/python/base/2.%20requests高级操作.md)
    - [3. mysql数据库操作](/python/base/3.%20mysql数据库操作.md)
    - [4. 分组&连表查询](/python/base/4.%20分组&连表查询.md)
    - [5. pymysql操作](/python/base/5.%20pymysql操作.md)
@@ -19,6 +19,6 @@
 	 - [1. shell的基础用法](/shell/base/1.%20shell的基础用法.md)
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzEyNTM5MiwxMTA1ODc3MjU4LDIxMj
-Q3MTk2NzQsMTMwNzEyNjU2MV19
+eyJoaXN0b3J5IjpbMTYzMTI0MTUzNywxNzA3MTI1MzkyLDExMD
+U4NzcyNTgsMjEyNDcxOTY3NCwxMzA3MTI2NTYxXX0=
 -->
