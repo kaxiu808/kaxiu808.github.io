@@ -33,7 +33,11 @@
         depth: 6, // 搜索标题的最大程级, 1 - 6
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
 
-     } 
+     },
+      plugins: [
+      DocsifyAnchorNavigation.create()
+    ]
+  
     }
 
   </script>
@@ -47,6 +51,7 @@
   <!-- plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="https://unpkg.com/docsify-anchor-navigation/dist/js/anchor-navigation.min.js"></script>
+  
   
 
 <style type="text/css">
