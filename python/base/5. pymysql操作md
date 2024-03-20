@@ -4,9 +4,9 @@
 
   - 注意：使用group by的查询字段必须是分组字段，否则会出错，想要获取其他字段信息,可以借助于聚合函数
 
-- ```sql
+```sql
   select job_title from emp group by job_title
-  ```
+```
 
 - 分组聚合
 
