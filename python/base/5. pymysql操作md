@@ -8,9 +8,9 @@
   select job_title from emp group by job_title
 ```
 
-- 分组聚合
+-分组聚合
 
-- ```sql
+```sql
   #查看每一个岗位的人数
   #count(1)每组的行数
   select job_title, count(1)from emp group by job_title
@@ -23,7 +23,7 @@
   
   #查看男女员工的最大,最小年级和整体年龄
   select gender,max(age),min(age),sum(age) from emp group by gender
-  ```
+ ```
 
 - having子句
 
@@ -33,10 +33,10 @@
 
   - 注意：having后面的条件字段只可以是分组后结果中存在的字段名，否则会报错！
 
-  - ```sql
+  ```sql
     #查看销售岗位的平均薪资
     select job_title,avg(salary) from emp GROUP BY job_title having job_title = 'sale'
-    ```
+  ```
 
 ### 多表查询
 
@@ -44,7 +44,7 @@
 
 - 准备数据
 
-- ```sql
+ ```sql
   create table dep(
   	id int primary key,
   	name char(20)
@@ -72,22 +72,22 @@
   ('zhaosi','male',18,200),
   ('shenteng','female',18,204)
   ;
-  ```
+ ```
 
 - 内连接:（取交集）
 
   - 两张表公共的部分,必须同时有,没有就不显示
 
-- ```
+```sql
   #语法；select * from 表1 inner join 表2 on 合并条件
   select * from emp inner join dep on emp.dep_id = dep.id
-  ```
+```
 
 - 外连接之左连接
 
   - 以左表为主表,根据左表数据匹配右表,左表数据是全的,而右表若匹配不上则为null
 
-- ```
+  ```
   select * from emp left join dep on emp.dep_id = dep.id
   ```
 
@@ -95,7 +95,7 @@
 
   - 以右表为主表,根据右表数据匹配左表,右表数据是全的,而左表若匹配不上则为null
 
-- ```
+  ```
   select * from emp right join dep on emp.dep_id = dep.id
   ```
 
@@ -103,7 +103,7 @@
 
 - 符合条件的多表联查
 
-- ```sql
+  ```sql
   #示例1：以内连接的方式查询emp和dep表，并且emp表中的age字段值必须大于25,即找出年龄大于25岁的员工姓名以及员工所在的部门
   select * from emp inner join dep on emp.dep_id = dep.id where age > 25
   #给表通过as起别名
@@ -127,7 +127,7 @@
 
     - 查询平均年龄在25岁以上的部门名
 
-  - ```sql
+    ```sql
     #下述sql返回的就是201和202
     select dep_id from emp group by dep_id having avg(age) > 25
     
@@ -143,7 +143,7 @@
 
     - 查看技术部员工姓名
 
-  - ```sql
+    ```sql
     select name from emp where dep_id in (200)
     #获取部门编号200
     select id from dep where name = '技术'
@@ -158,7 +158,7 @@
 
     - 查询大于所有人平均年龄的员工名字与年龄
 
-    - ```sql
+      ```sql
       select id,name from emp where age > xx #xx就是所有员工的平均年龄
       #如何获取所有员工的平均年龄
       select avg(age) from emp
