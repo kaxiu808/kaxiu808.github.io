@@ -2,10 +2,10 @@
 
 * [认识python语言](python/)
    - [1. python的基础知识](/python/base/1.%20python的基础知识.md)
-   - [2.requests高级操作](/python/base/2.%20requests高级.md)
-   - [3.mysql数据库操作](/python/base/3.%20mysql数据库操作.md)
-   - [4.分组&连表查询](/python/base/4.%20分组&连表查询.md)
-   - [5.pymysql操作](/python/base/5.%20pymysql操作.md)
+   - [2. requests高级操作](/python/base/2.%20requests高级.md)
+   - [3. mysql数据库操作](/python/base/3.%20mysql数据库操作.md)
+   - [4. 分组&连表查询](/python/base/4.%20分组&连表查询.md)
+   - [5. pymysql操作](/python/base/5.%20pymysql操作.md)
 
 
 * [与javastript的邂逅之缘](js/)
@@ -19,6 +19,6 @@
 	 - [1.shell的基础用法](/shell/base/1.%20shell的基础用法.md)
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTg3NzI1OCwyMTI0NzE5Njc0LDEzMD
-cxMjY1NjFdfQ==
+eyJoaXN0b3J5IjpbLTc2NjM2NTcxMiwxMTA1ODc3MjU4LDIxMj
+Q3MTk2NzQsMTMwNzEyNjU2MV19
 -->
