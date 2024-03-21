@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- 侧边栏插件的样式  这个插件可以让你的 Docsify 侧边栏具有折叠和展开的功能，使得用户可以更灵活地控制侧边栏的显示状态  --> 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
   
 
   <style type="text/css">
@@ -43,16 +44,16 @@
      },
       autoHeaderLinks: true ,// 点击标题跳转到相应内容
                
-    }
+    },
 
-    window.$docsify.sidebar = {
-        collapse: {
-        open: false
-      },
-        nav: {
-        displayAllHeaders: true
-      }
-      };
+    window.$docsify = {
+    toc: {
+    scope: '.markdown-section',
+    headings: 'h1, h2, h3, h4, h5, h6',
+    title: 'Table of Contents',
+  },
+}
+
 
   </script>
 
@@ -69,8 +70,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- 侧边栏折叠插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
   
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-nav/dist/docsify-sidebar-nav.min.js"></script>
+  
 
   
 
