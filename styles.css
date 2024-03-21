@@ -1,0 +1,4 @@
+/* 隐藏复制代码按钮 */
+.docsify-copy-code {
+  display: none !important;
+}
