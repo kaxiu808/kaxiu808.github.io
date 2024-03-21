@@ -18,7 +18,3 @@
 * [与shell命令脚本的偶遇](shell/)
 	 - [1. shell的基础用法](/shell/base/1.%20shell的基础用法.md)
 	 - 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTI0MTUzNywxNzA3MTI1MzkyLDExMD
-U4NzcyNTgsMjEyNDcxOTY3NCwxMzA3MTI2NTYxXX0=
--->
