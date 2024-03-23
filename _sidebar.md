@@ -17,7 +17,7 @@
     - [1. kali的常用命令](/kali/base/1.%20kali的常用命令.md)
 * [与shell命令脚本的偶遇](shell/)
 	 - [1. shell的基础用法](/shell/base/1.%20shell的基础用法.md)
-* []
+* [并发编程](bi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NzM3MzQ0XX0=
+eyJoaXN0b3J5IjpbMjQ2OTc3MjcwXX0=
 -->
