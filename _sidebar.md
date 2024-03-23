@@ -18,7 +18,8 @@
 * [与shell命令脚本的偶遇](shell/)
 	 - [1. shell的基础用法](/shell/base/1.%20shell的基础用法.md)
 * [了解并发编程](bingfa/)
-	  - [1.并发编程](/bingfa/base/1.并发思想。)
+	  - [1.并发编程](/bingfa/base/1.%20并发思想.md)
+	  - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDcxNDY5OCwxODI5NTg1MzQ2XX0=
+eyJoaXN0b3J5IjpbLTg1MDg4NjE5MSwxODI5NTg1MzQ2XX0=
 -->
