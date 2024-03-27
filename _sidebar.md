@@ -11,7 +11,7 @@
 * [与javastript的邂逅之缘](js/)
    - [1. js的基础知识](/js/base/1.%20js的基础知识.md)
    - [2. js函数基础](/js/base/2.%20js函数基础.md)
-   - [3. js作于域](/js/base/3.%20js作于域2.md)
+   - [3. js作于域](/js/base/3.%20js作于域.md)
  
 * [了解kali的基本命令](kali/)
     - [1. kali的常用命令](/kali/base/1.%20kali的常用命令.md)
@@ -22,6 +22,6 @@
 	 - [2.协程](/bingfa/base/1.%20协程.md)
 	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE5MDg3MCwyMDY5NDA4MjgwLDE4Mj
-k1ODUzNDZdfQ==
+eyJoaXN0b3J5IjpbNTk3MTM4NDIsMTc0NDE5MDg3MCwyMDY5ND
+A4MjgwLDE4Mjk1ODUzNDZdfQ==
 -->
