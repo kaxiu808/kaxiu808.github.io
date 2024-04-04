@@ -6,7 +6,7 @@
    - [3. mysql数据库操作](/python/base/3.%20mysql数据库操作.md)
    - [4. 分组&连表查询](/python/base/4.%20分组&连表查询.md)
    - [5. pymysql操作](/python/base/5.%20pymysql操作.md)
-   - [6.playwright基本介绍](/python/base/6.%20playwright自动化操作.md)
+   - [6. playwright基本介绍](/python/base/6.%20playwright自动化操作.md)
 
 
 * [与javastript的邂逅之缘](js/)
@@ -23,7 +23,7 @@
 	 - [2.协程](/bingfa/base/2.%20协程.md)
 	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0Mzk0OTcwLDE2OTI1MTc4NDEsNTk3MT
-M4NDIsMTc0NDE5MDg3MCwyMDY5NDA4MjgwLDE4Mjk1ODUzNDZd
-fQ==
+eyJoaXN0b3J5IjpbLTI5OTU3NjI3NiwxNjkyNTE3ODQxLDU5Nz
+EzODQyLDE3NDQxOTA4NzAsMjA2OTQwODI4MCwxODI5NTg1MzQ2
+XX0=
 -->
