@@ -7,6 +7,7 @@
    - [4. 分组&连表查询](/python/base/4.%20分组&连表查询.md)
    - [5. pymysql操作](/python/base/5.%20pymysql操作.md)
    - [6. playwright自动化操作](/python/base/6.%20playwright自动化操作.md)
+   - [7.charles抓包工具](/python/base/7.%20charles抓包工具.md)
 
 
 * [与javastript的邂逅之缘](js/)
@@ -23,7 +24,7 @@
 	 - [2.协程](/bingfa/base/2.%20协程.md)
 	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNTc1OTMsMTY5MjUxNzg0MSw1OTcxMz
-g0MiwxNzQ0MTkwODcwLDIwNjk0MDgyODAsMTgyOTU4NTM0Nl19
-
+eyJoaXN0b3J5IjpbMTMxNDM0NjE2MSw3MDI1NzU5MywxNjkyNT
+E3ODQxLDU5NzEzODQyLDE3NDQxOTA4NzAsMjA2OTQwODI4MCwx
+ODI5NTg1MzQ2XX0=
 -->
