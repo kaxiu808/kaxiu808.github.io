@@ -5,27 +5,21 @@
   <title>博客</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- docsify的主题样式 这个链接，你可以加载 Docsify 的 Vue 主题样式，使你的 Docsify 文档具有 Vue 风格的外观和样式 -->
+  <!-- 引入 Docsify 的 Vue 主题样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- 侧边栏插件的样式  这个插件可以让你的 Docsify 侧边栏具有折叠和展开的功能，使得用户可以更灵活地控制侧边栏的显示状态  -->
+  <!-- 引入侧边栏折叠插件样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
- 
-
-
 </head>
 <body>
   <nav>
+    <!-- 确保链接指向正确的路由或文件 -->
     <a href="#/zh-cn/">中文</a>
   </nav>
   <div id="app"></div>
 
   <!--先引入Docsify的核心库 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4.11.5/dist/docsify.min.js"></script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4.11.5"></script>
   <!-- 锚点导航插件 -->
   <script src="https://unpkg.com/docsify-anchor-navigation/dist/js/anchor-navigation.min.js"></script>
   <!--搜索插件-->
@@ -35,16 +29,16 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- 侧边栏折叠插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <!-- Docsify -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-   <!-- 分页插件 -->
+  <!-- 引入分页插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
  <script>
     window.$docsify = {
       name: 'kaxiu的博客',
       repo: '',
-      alias: {'/.*/_sidebar.md': '/_sidebar.md'},
+      alias: {'/.*/_sidebar.md': '/_sidebar.md'
+             '/.*/_navbar.md': '/_navbar.md'
+            },
       // 配置侧边栏后自动激活链接
       loadSidebar: true, // 增加，自动加载侧边栏
       autoHeaderLinks: true ,// 点击标题跳转到相应内容
@@ -74,10 +68,9 @@
     nextText: '下一页',
     crossChapter: true, // 跨章节
   }
-   
-    };
+  };
 
-  </script>
+</script>
 
 </body>
 </html>
